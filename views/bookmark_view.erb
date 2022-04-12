@@ -1,7 +1,11 @@
 <h2>Bookmarks</h2>
-
+<form action="/new-bookmark" method="post">
+<label for="name">Bookmark:</label>
+<input type="text" id="Add bookmark" name="bookmark">
+<p></p>
+<input type="submit" value="Submit">
+</form>
 <p>
 <%@bookmarks.each do |b|%> 
 <p><%=b%></p>
 <% end %></p>
-    
