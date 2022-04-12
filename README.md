@@ -12,10 +12,10 @@ I would like to see a list of bookmarks`
 So that I can save a website address
 I want to add the site's address and title to a bookmark manager`
 
-Link to the domain model: https://miro.com/app/board/uXjVO9sGhD0=/
+Link to the domain model: https://miro.com/app/board/uXjVO9sGhD0=/?share_link_id=405478026260
 
 
-<img src="https://lh3.googleusercontent.com/OSNE4yP8pyxyxZ6dUTGCNktWmhXweuUUvIbNJuu8FGhcKHUkx3xaTA2BshQAR_3un_xDo_U=s170"  width="800" height="400" />
+<img src="https://miro.com/app/live-embed/uXjVO9sGhD0=/?moveToViewport=-728,-270,1452,609" frameBorder="0" scrolling="no" allowFullScreen></" iframe width="768" height="432" />
 
 # HOW TO SET UP AND CONNECT TO DATABASE
 1. Connect to `psql`
