@@ -1,6 +1,8 @@
 <h1> Bookmark added! </h1>
 <p>
-<%=$bookmark%> has been added by your Bookmark Manager </p>
+<%=@bookmark%> has been added by your Bookmark Manager </p>
 <form action="/bookmarks" >
-<input type="submit" id="View bookmarks">
+<input type="submit" value="View bookmarks" id:"View bookmarks">
 </form>
+
+<p> <%=@bookmark%> </p>

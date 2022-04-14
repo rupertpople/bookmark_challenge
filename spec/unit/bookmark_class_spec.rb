@@ -3,11 +3,17 @@ require './lib/bookmark.rb'
 
 describe Bookmark do
     describe '.all' do
-    it 'should display an array of bookmarks - seperated' do
+    it 'should display an empty array of bookmarks - seperated' do
       bookmarks = Bookmark.all
-      expect(bookmarks).to include('http://www.google.com')
-      expect(bookmarks).to include('http://www.makersacademy.com')
-      expect(bookmarks).to include('http://www.destroyallsoftware.com')
+      expect(bookmarks).to eq([])
     end
   end
+
+    describe '.create' do
+      it 'creates a new bookmark' do
+        Bookmark.create('http://www.facebook.com')
+    
+        expect(Bookmark.all).to include 'http://www.facebook.com'
+      end
+    end
 end
