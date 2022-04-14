@@ -2,10 +2,12 @@
 <form action="/add-bookmark" method="post">
 <label for="name">Add bookmark:</label>
 <input type="text" name="bookmark" id='bookmark'>
+<label for="name">Add title:</label>
+<input type="text" name="title" id='title'>
 <p></p>
 <input type="submit" value="Submit">
 </form>
 <p>
 <% @bookmarks.each do |b|%> 
-<p><%=b%></p>
+<p><a href=<%=b.url%> ><%=b.title%></a></p>
 <% end %></p>
